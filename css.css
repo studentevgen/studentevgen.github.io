@@ -1,0 +1,24 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: lightgrey;
+}
+.header {
+	background: gray;
+}
+.navi li {
+	list-style-type: none;
+display: inline-block;
+padding:0 0 10pt 0;
+
+}
+.navi a {
+	text-decoration: none;
+	color: red;
+	font-size: 20pt;	
+}
+
+.logo {
+	
+	margin-left: 5%;
+}
