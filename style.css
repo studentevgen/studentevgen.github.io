@@ -74,11 +74,7 @@ nav {
 		text-align: center;
 		padding-top: 20px;
 	}
-#h1 {
-		border-bottom: solid;
-		
-	}
-	.perexod {
+.pere {margin-top: 10px;
 		color:red;
 		margin-left: 45%;
-	}
+}
