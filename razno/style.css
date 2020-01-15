@@ -111,11 +111,4 @@ figure:nth-child(4) {
 	31% {left: -100%; width: 0}
 	100% {left: 100%; width: 0 }
 }
-.footer {
-		margin-top: 100%;
-		height: 80px;
-		border-style: solid;
-		background-color:#998282; 
-		text-align: center;
-		padding-top: 20px;
-	}
+
