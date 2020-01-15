@@ -64,7 +64,7 @@ nav {
 	align-items: center;
 }
 .item:hover {
-	flex-basis: 50%;
+	flex-basis: 75%;
 }
 .item {
 	height: 50vh;
@@ -73,7 +73,7 @@ nav {
 	align-items: center;
 	border: 1px solid red;
 	background-color: yellow;
-	flex-basis: 100%;
+	flex-basis: 50%;
 	margin: 25px;
 	transition: 0.4s;
 }
@@ -108,11 +108,11 @@ nav {
 	align-items: center;
 	border: 1px solid #000;
 	background-color: yellow;
-	flex-basis: 100%;
+	flex-basis:50%;
 	transition: 0.4s;
 }
 .item2:hover {
-	flex-basis: 50%;
+	flex-basis: 75%;
 }
 .item-a {
 	background: url(img/img4.jpg) no-repeat center center;
