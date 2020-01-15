@@ -1,0 +1,141 @@
+@media screen and (max-width: 992px) { div. contentblock {width: 970px;} }
+* {
+	margin: 0;
+	padding: 0;
+}
+* {
+	text-decoration: none;
+}
+li {
+	text-decoration: none;
+	list-style: none;
+}
+body {
+	background: lightgray;
+	font-family: Arial;
+	
+}
+.logo {
+	background: gray;
+	width: 100%;
+	display: flex;
+	justify-content: left;
+}
+.txt {
+	padding-top: 100px;
+	padding-left: 280px;
+	color: white;
+	font-size: 35px;
+	box-sizing: border-box;
+}
+.graficlogo {
+	padding: 5px;
+	max-width: 100%;
+	box-sizing: border-box;
+}
+
+nav {
+	background: lightgray;
+	margin: auto;
+	width: 540px;
+	height:50px;
+}
+
+.topnav {
+	display: flex;
+	justify-content: right;
+	text-align: right;
+	background-color: white;
+	font-size: 14px;
+	margin-top: 50px;
+}
+.topnav a {
+	background-color: lightgray;
+	color: brown;
+	padding: 14px 16px;
+	font-size: 15px;
+}
+.topnav a:hover {
+	border-bottom: 2px solid #000;
+}
+.galera {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.item:hover {
+	flex-basis: 50%;
+}
+.item {
+	height: 50vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 1px solid red;
+	background-color: yellow;
+	flex-basis: 100%;
+	margin: 25px;
+	transition: 0.4s;
+}
+ .sp1 {
+	font-size: 20px;
+	margin-bottom: 145px;
+	color: white;
+
+}
+.item-1 {
+	background: url(img/img1.jpg) no-repeat center center;
+	background-size: cover;
+}
+.item-2 {
+	background: url(img/img2.jpg) no-repeat center center;
+	background-size: cover;
+}
+.item-3 {
+	background: url(img/img3.jpg) no-repeat center center;
+	background-size: cover;
+}
+.galera2 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.item2 {
+	margin: 25px;
+	height: 50vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 1px solid #000;
+	background-color: yellow;
+	flex-basis: 100%;
+	transition: 0.4s;
+}
+.item2:hover {
+	flex-basis: 50%;
+}
+.item-a {
+	background: url(img/img4.jpg) no-repeat center center;
+	background-size: cover;
+}
+.item-b {
+	background: url(img/img5.jpg) no-repeat center center;
+	background-size: cover;
+}
+.item-c {
+	background: url(img/img6.jpg) no-repeat center center;
+	background-size: cover;
+}
+.sp2 {
+	font-size: 20px;
+	margin-bottom: 145px;
+	color: lightyellow;
+	}
+.footer {
+		margin-top: 10px;
+		height: 80px;
+		border-style: solid;
+		background-color:#998282; 
+		text-align: center;
+		padding-top: 20px;
+	}
