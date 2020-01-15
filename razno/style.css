@@ -1,0 +1,113 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+* {
+	text-decoration: none;
+}
+li {
+	text-decoration: none;
+	list-style: none;
+}
+body {
+	background: lightgray;
+	font-family: Arial;
+	
+}
+.logo {
+	background: gray;
+	width: 100%;
+	display: flex;
+	justify-content: left;
+}
+.txt {
+	padding-top: 100px;
+	padding-left: 280px;
+	color: white;
+	font-size: 35px;
+	box-sizing: border-box;
+}
+.graficlogo {
+	padding: 5px;
+	max-width: 100%;
+	box-sizing: border-box;
+}
+
+nav {
+	background: lightgray;
+	margin: auto;
+	width: 540px;
+	height:50px;
+}
+
+.topnav {
+	display: flex;
+	justify-content: right;
+	text-align: right;
+	background-color: white;
+	font-size: 14px;
+	margin-top: 50px;
+}
+.topnav a {
+	background-color: lightgray;
+	color: brown;
+	padding: 16px 19px;
+	font-size: 15px;
+}
+.topnav a:hover {
+	border-bottom: 2px solid #000;
+}
+body {
+	height: 100%;
+	width: 100%;
+}
+.container {
+	margin-left: 26%;
+	height: 50%;
+	width: 50%;
+	position: absolute;
+	display: block;
+	overflow: hidden;
+}
+
+figure {
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+	background-position: center;
+	position: absolute;
+	display: block;
+	overflow: hidden;
+	animation: slider 12s infinite;
+
+}
+figure:nth-child(1) {
+	background-image: url(nem3.jpg);
+	z-index: 4;
+	left: 0;
+	animation-delay: -1s;
+}
+figure:nth-child(2) {
+	background-image: url(nem4.png);
+	z-index: 3;
+	animation-delay: 2s;
+}
+figure:nth-child(3) {
+	background-image: url(nem2.jpg);
+	z-index: 2;
+	animation-delay: 5s;
+}
+figure:nth-child(4) {
+	background-image: url(nem1.jpg);
+	z-index: 1;
+	left: 0;
+	animation-delay: 8s;
+}
+@keyframes slider {
+	0% {left: 100%; width:100%}
+	5% {left: 0}
+	25% {left: 0}
+	30% {left: -100%; width: 100%}
+	31% {left: -100%; width: 0}
+	100% {left: 100%; width: 0 }
+}
