@@ -62,6 +62,7 @@ body {
 	width: 100%;
 }
 .container {
+	margin-top: 20px;
 	margin-left: 26%;
 	height: 50%;
 	width: 50%;
@@ -112,7 +113,7 @@ figure:nth-child(4) {
 	100% {left: 100%; width: 0 }
 }
 .footer {
-		margin-top: 15px;
+		margin-top: 400px;
 		height: 80px;
 		border-style: solid;
 		background-color:#998282; 
