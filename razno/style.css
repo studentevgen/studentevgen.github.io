@@ -67,8 +67,7 @@ body {
 	height: 50%;
 	width: 50%;
 	position: absolute;
-	display: block;
-	overflow: hidden;
+	display: block;	
 }
 
 figure {
@@ -78,7 +77,6 @@ figure {
 	background-position: center;
 	position: absolute;
 	display: block;
-	overflow: hidden;
 	animation: slider 12s infinite;
 
 }
