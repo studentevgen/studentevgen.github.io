@@ -50,10 +50,34 @@ nav {
 }
 .topnav a {
 	background-color: lightgray;
-	color: #000;
+	color: brown;
 	padding: 16px 19px;
 	font-size: 15px;
 }
 .topnav a:hover {
 	border-bottom: 2px solid #000;
 }
+.hist {
+	margin-top: 25px;
+	position: center;
+	margin-left: 30px;
+	margin-right: 25px;
+}
+.img {
+	margin-top: 25px;
+	float: right;
+	padding: 12px;
+}
+ .ppp {
+        margin-top: 10px;
+		color:red;
+		margin-left: 45%;
+ }
+ .footer {
+		margin-top: 10px;
+		height: 80px;
+		border-style: solid;
+		background-color:#998282; 
+		text-align: center;
+		padding-top: 20px;
+	}
