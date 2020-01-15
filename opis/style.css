@@ -36,6 +36,11 @@ h2 {text-align: center;
 	font-size: 35px;
 	box-sizing: border-box;
 }
+.text {
+	position: center;
+	max-width: 75%;
+	margin-left: 15%;
+}
 .graficlogo {
 	padding: 5px;
 	max-width: 100%;
