@@ -67,6 +67,7 @@ body {
 	height: 50%;
 	width: 50%;
 	position: absolute;
+	overflow: hidden;
 	display: block;	
 }
 
@@ -78,7 +79,7 @@ figure {
 	position: absolute;
 	display: block;
 	animation: slider 12s infinite;
-
+        overflow: hidden;
 }
 figure:nth-child(1) {
 	background-image: url(nem3.jpg);
