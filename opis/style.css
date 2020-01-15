@@ -18,7 +18,7 @@ body {
 	background-image: url(nemz.png);
 	opacity: 0.7;
 	font-family: Arial;
-	
+	background-size: cover;
 }
 h2 {text-align: center;
 	color: #E4F110;
