@@ -19,6 +19,7 @@ body {
 	opacity: 0.7;
 	font-family: Arial;
 	background-size: cover;
+	
 }
 h2 {text-align: center;
 	color: #E4F110;
@@ -65,7 +66,7 @@ nav {
 .topnav a {
 	background-color: lightgray;
 	color: #000;
-	padding: 16px 19px;
+	padding: 14px 16px;
 	font-size: 15px;
 }
 .topnav a:hover {
