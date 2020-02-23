@@ -104,7 +104,7 @@ nav {
 		color:red;
 		margin-left: 45%;
 }
-	@media screen and (max-width: 768px ) {
+	@media screen and (max-width: 710px ) {
 		.head-container {
 			width: 100%;
 			display: flex;
