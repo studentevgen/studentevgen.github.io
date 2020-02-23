@@ -14,12 +14,62 @@ body {
 	font-family: Arial;
 	
 }
-.logo {
-	background: gray;
-	width: 100%;
-	display: flex;
-	justify-content: left;
 }
+li {list-style: none;
+	display: flex;
+}
+a {text-decoration: none;
+}
+header {
+	background-color: gray;
+	padding: 22px 0;
+}
+.head-container {
+	width: 90%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+} 
+.head-container a {
+	color: brown;
+	font-size: 16px;
+	margin-right: 65px;
+	padding: 12px 6px;
+
+}
+.head-container a:hover {
+	background: green;
+
+}
+#menu-checkbox {
+	display: none;
+}
+ul {display: flex;
+}
+nav {
+	margin-top: 45px;
+	}
+	.galera {
+	display: flex; 
+	padding: 20px;
+	margin: 25px;
+	justify-content: center;
+	align-items: center;
+}
+.sp1 {
+	font-size: 20px;
+	margin-bottom: 145px;
+	color: white;
+	}
+	.ttt {background-color: black;
+		color: white;
+		font-size: 20px;
+		position: absolute;
+		margin-top: 170px;
+		min-width: 24%;
+		text-align: center;
+	}
+
 .txt {
 	padding-top: 100px;
 	padding-left: 280px;
@@ -27,37 +77,11 @@ body {
 	font-size: 35px;
 	box-sizing: border-box;
 }
-.graficlogo {
-	padding: 5px;
-	max-width: 100%;
-	box-sizing: border-box;
-}
 
-nav {
-	background: lightgray;
-	margin: auto;
-	width: 530px;
-	height:50px;
 
-}
 
-.topnav {
-	display: flex;
-	justify-content: right;
-	text-align: right;
-	background-color: white;
-	font-size: 14px;
-	margin-top: 50px;
-}
-.topnav a {
-	background-color: lightgray;
-	color: brown;
-	padding: 16px 19px;
-	font-size: 15px;
-}
-.topnav a:hover {
-	border-bottom: 2px solid #000;
-}
+
+
 .container {
 	margin-top: 10px;
 	 padding: 8px;
@@ -74,7 +98,52 @@ nav {
 		text-align: center;
 		padding-top: 20px;
 	}
-.pere {margin-top: 10px;
+	
+	
+	.pere {margin-top: 10px;
 		color:red;
 		margin-left: 45%;
 }
+	@media screen and (max-width: 768px ) {
+		.head-container {
+			width: 100%;
+			display: flex;
+			justify-content: space-around;
+		}
+		.main-menu {
+			display: none;
+		}
+		.main-menu li {
+            width: 100%;
+            display: block;
+            font-size: 12px;
+		}
+		.main-menu a {
+			display: block;
+			padding: 8px;
+		}
+       .toggle-buttom {
+       	text-align: center;
+       	display: block;
+       	cursor: pointer;
+       	color: black;
+       }
+       .toggle-buttom:after {
+       	content: attr(data-open);
+       	display: block;
+       }
+       #menu-checkbox:checked + nav[role="navigation"] .main-menu {
+       	display: block;
+       }
+       #menu-checkbox:checked + nav[role="navigation"] .toggle-buttom:after {
+        content: attr(data-close);
+       	display: block;
+       }
+       .head-container a {
+       	margin-right: -65px;
+       }
+       .main-menu {
+       	position: relative;
+       	top: 15px;
+       	right: 100px;
+       }
