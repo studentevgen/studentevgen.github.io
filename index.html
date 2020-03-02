@@ -5,6 +5,21 @@
   <title>Немецкая Овчарка</title>
   <link rel="stylesheet" href="style.css">  
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script type="text/javascript">
+  var earn_month = 0; //Начальное значение корма в месяц
+  var delay = 100; //Задержка
+  var cur_earn = 0;
+  setInterval("startEarn()", delay);
+  function startEarn() {
+    var earn_second = earn_month / (30 * 24 * 3600);
+    cur_earn += earn_second * delay / 1000;
+    document.getElementById('earn').innerHTML = cur_earn.toFixed(5);
+  }
+  function updateEarn() {
+    earn_month = document.formearn.earn_month.value;
+    cur_earn = 0;
+  }
+</script>
 </head>
 <body>
     <header>
@@ -25,6 +40,15 @@
   </div>  
     </header>
     <div class="container">
+      <p>
+  <b id="earn">0</b> Кило корма в месяц в динамике
+</p>
+<form name="formearn" action="" method="post" onsubmit="return false;">
+  <p>
+    <input type="text" name="earn_month" />
+    <input type="button" value="Старт" onclick="updateEarn()" />
+  </p>
+</form>
       <div class="image">
     <img src="10.jpg";>
   </div>
