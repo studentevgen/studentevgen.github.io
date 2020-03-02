@@ -14,49 +14,45 @@ body {
 	font-family: Arial;
 	
 }
-.logo {
-	background: gray;
-	width: 100%;
+li {list-style: none;
 	display: flex;
-	justify-content: left;
 }
-.txt {
-	padding-top: 100px;
-	padding-left: 280px;
-	color: white;
-	font-size: 35px;
-	box-sizing: border-box;
+.nem {
+	float: right;
+	margin: 10px;
 }
-.graficlogo {
-	padding: 5px;
-	max-width: 100%;
-	box-sizing: border-box;
+a {text-decoration: none;
 }
-
-nav {
-	background: lightgray;
-	margin: auto;
-	width: 540px;
-	height:50px;
+header {
+	background-color: gray;
+	padding: 22px 0;
 }
-
-.topnav {
+.head-container {
+	width: 90%;
+	margin: 0 auto;
 	display: flex;
-	justify-content: right;
-	text-align: right;
-	background-color: white;
-	font-size: 14px;
-	margin-top: 50px;
-}
-.topnav a {
-	background-color: lightgray;
+	justify-content: space-between;
+} 
+.head-container a {
 	color: brown;
-	padding: 14px 16px;
-	font-size: 15px;
+	font-size: 16px;
+	margin-right: 65px;
+	padding: 12px 6px;
+
 }
-.topnav a:hover {
-	border-bottom: 2px solid #000;
+.head-container a:hover {
+	background: green;
+
 }
+#menu-checkbox {
+	display: none;
+}
+ul {display: flex;
+}
+nav {
+	margin-top: 45px;
+	}
+
 .carta {
 	display: flex;
 	justify-content: center;
@@ -147,6 +143,48 @@ nav {
 		padding-top: 20px;
 	}
 	@media screen and (max-width: 768px ) {
+		.head-container {
+			width: 100%;
+			display: flex;
+			justify-content: space-around;
+		}
+		.main-menu {
+			display: none;
+		}
+		.main-menu li {
+            width: 100%;
+            display: block;
+            font-size: 12px;
+		}
+		.main-menu a {
+			display: block;
+			padding: 8px;
+		}
+       .toggle-buttom {
+       	text-align: center;
+       	display: block;
+       	cursor: pointer;
+       	color: black;
+       }
+       .toggle-buttom:after {
+       	content: attr(data-open);
+       	display: block;
+       }
+       #menu-checkbox:checked + nav[role="navigation"] .main-menu {
+       	display: block;
+       }
+       #menu-checkbox:checked + nav[role="navigation"] .toggle-buttom:after {
+        content: attr(data-close);
+       	display: block;
+       }
+       .head-container a {
+       	margin-right: -65px;
+       }
+       .main-menu {
+       	position: relative;
+       	top: 15px;
+       	right: 100px;
+       }
 		.galera {
 	display: block; 
 	justify-content: center;
