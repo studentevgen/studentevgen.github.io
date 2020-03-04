@@ -144,8 +144,8 @@ nav {
        h2 {
        	margin-top: 9px;
        }
-        .nem {
-	display: flex;
-	height: 350px;
-	width: 450px;
+         .image {
+	display: block; 
+	justify-content: center;
+	align-items: center;
 }
