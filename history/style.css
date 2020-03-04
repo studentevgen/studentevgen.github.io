@@ -39,13 +39,13 @@ header {
 } 
 .head-container a {
 	color: brown;
-	font-size: 20px;
+	font-size: 18px;
 	margin-right: 65px;
 	padding: 12px 6px;
 
 }
 .head-container a:hover {
-	background: green;
+	background: lightgray;
 
 }
 #menu-checkbox {
