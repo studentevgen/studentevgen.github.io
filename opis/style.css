@@ -66,6 +66,13 @@ header {
 	padding: 12px 6px;
 
 }
+ .image {
+	display: block; 
+	justify-content: center;
+	align-items: center;
+		 
+}
+
 .head-container a:hover {
 	background: lightgray;
 
@@ -78,22 +85,14 @@ ul {display: flex;
 nav {
 	margin-top: 45px;
 	}
-	.galera {
-	display: flex; 
-	padding: 20px;
-	margin: 25px;
-	justify-content: center;
-	align-items: center;
+	
 }
 .footer {
-	
-
 	    text-align: center;
 		margin-top: 10px;
 		height: 80px;
 		border-style: solid;
 		background-color:#998282; 
-		
 		padding-top: 20px;
 	}
 
@@ -144,10 +143,4 @@ nav {
        h2 {
        	margin-top: 9px;
        }
-         .nem {
-	display: block; 
-	justify-content: center;
-	align-items: center;
-	width: 465px;
-       	height: 300px;	 
-}
+        
