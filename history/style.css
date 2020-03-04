@@ -9,6 +9,10 @@ li {
 	text-decoration: none;
 	list-style: none;
 }
+p {
+	line-height: 1.7;
+}
+	
 body {
 	background: lightgray;
 	font-family: Arial;
@@ -35,7 +39,7 @@ header {
 } 
 .head-container a {
 	color: brown;
-	font-size: 16px;
+	font-size: 20px;
 	margin-right: 65px;
 	padding: 12px 6px;
 
