@@ -97,14 +97,7 @@ nav {
 		float:right;
 		padding: 9px;
 	}
-	.footer {
-		margin-top: 10px;
-		height: 80px;
-		border-style: solid;
-		background-color:#998282; 
-		text-align: center;
-		padding-top: 20px;
-	}
+	
 	
 	
 	.pere {margin-top: 10px;
@@ -154,4 +147,7 @@ nav {
        	top: 15px;
        	right: 40px;
        }
-	
+	.nem {
+       	display: block;
+       	margin-left: 60px;
+       }
